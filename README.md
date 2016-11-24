@@ -1,6 +1,6 @@
 # Guzzle Commands
 
-[![Build Status](https://travis-ci.org/guzzle/command.svg?branch=guzzle6)](https://travis-ci.org/guzzle/command)
+[![Build Status](https://travis-ci.org/guzzle/command.svg?branch=guzzle6)](https://travis-ci.org/guzzle/command) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/guzzle/command/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/guzzle/command/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/guzzle/command/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/guzzle/command/?branch=master)
 
 This library uses Guzzle (``guzzlehttp/guzzle``, version 6.x) and provides the
 foundations to create fully-featured web service clients by abstracting Guzzle
