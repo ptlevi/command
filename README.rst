@@ -2,6 +2,9 @@
 Guzzle Commands
 ===============
 
+.. image:: https://travis-ci.org/guzzle/command.svg?branch=guzzle6
+    :target: https://travis-ci.org/guzzle/command
+
 This library uses Guzzle (``guzzlehttp/guzzle``, version 6.x) and provides the
 foundations to create fully-featured web service clients by abstracting Guzzle
 HTTP **requests** and **responses** into higher-level **commands** and
@@ -20,10 +23,9 @@ Results
 Installing
 ==========
 
-This project can be installed using Composer. You will need to add the
-``guzzlehttp/command`` package to your ``composer.json``.
+This project can be installed using Composer:
 
-For **Guzzle 6**, use ``composer require guzzlehttp/command:0.9.*``.
+``composer require guzzlehttp/command``
 
 For **Guzzle 5**, use ``composer require guzzlehttp/command:0.8.*``. The source
 code for the Guzzle 5 version is available on the
@@ -58,7 +60,7 @@ Instantiating a Service Client
 @TODO Add documentation
     * ``ServiceClient``'s constructor
     * Transformer functions (``$commandToRequestTransformer`` and ``$responseToResultTransformer``)
-    * The ``HandlerStack``
+    * The ``HandlerStack```
 
 Executing Commands
 ------------------
